@@ -1,0 +1,23 @@
+# title is shown in the page
+
+about:
+ title: About
+ url:	/about/
+
+projects:
+ title: Projects
+ url:	/projects/
+ speakly:
+   title: Speakly
+   url: /projects/speakly/
+ krinjal-space:
+   title: Krinjal space
+   url: /projects/krinjal-space
+
+blog:
+ title: Blog
+ url:	/blog/
+
+contact:
+  title: Contact
+  url: /contact/

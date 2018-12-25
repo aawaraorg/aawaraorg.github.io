@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aawara</title>
+    <description>aawara
+</description>
+    <link>http://myblog.***.***/</link>
+    <atom:link href="http://myblog.***.***/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 25 Dec 2018 13:52:35 -0800</pubDate>
+    <lastBuildDate>Tue, 25 Dec 2018 13:52:35 -0800</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Mediator Features</title>
+        <description>&lt;h1 id=&quot;mediator-formats-and-css-features&quot;&gt;Mediator Formats and CSS features&lt;/h1&gt;
+
+&lt;p&gt;Examples for different formats and css features&lt;/p&gt;
+
+&lt;h1 id=&quot;header-formats&quot;&gt;Header Formats&lt;/h1&gt;
+&lt;p&gt;#Header1
+##Header2&lt;/p&gt;
+
+&lt;h1 id=&quot;blockquotes&quot;&gt;Blockquotes&lt;/h1&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;lists&quot;&gt;Lists&lt;/h1&gt;
+&lt;p&gt;##orderd lists
+1. one
+2. two
+3. three&lt;/p&gt;
+
+&lt;h2 id=&quot;unorderd-lists&quot;&gt;unorderd lists&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Apple&lt;/li&gt;
+  &lt;li&gt;Banana&lt;/li&gt;
+  &lt;li&gt;Plum&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;links&quot;&gt;Links&lt;/h1&gt;
+&lt;p&gt;This is an &lt;a href=&quot;http://example.com/&quot; title=&quot;With a Title&quot;&gt;example link&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;combinations&quot;&gt;Combinations&lt;/h1&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus&lt;/p&gt;
+
+  &lt;ul&gt;
+    &lt;li&gt;Apple&lt;/li&gt;
+    &lt;li&gt;Banana&lt;/li&gt;
+    &lt;li&gt;Plum&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Sun, 30 Nov 2014 14:34:25 +0000</pubDate>
+        <link>http://myblog.***.***/ksdklf/</link>
+        <guid isPermaLink="true">http://myblog.***.***/ksdklf/</guid>
+        
+        <category>featured</category>
+        
+        
+        <category>mediator</category>
+        
+        <category>feature</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome To Jekyll</title>
+        <description>
+</description>
+        <pubDate>Fri, 29 Aug 2014 00:00:00 -0700</pubDate>
+        <link>http://myblog.***.***/2014/08/29/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://myblog.***.***/2014/08/29/welcome-to-jekyll.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

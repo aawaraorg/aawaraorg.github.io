@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<!-- <div class="teaserimage">
+
+</div> -->
+
+<header class="blog-header">
+    <!-- {% if site.logo %}
+      <a class="blog-logo" href="{{site.url}}{{site.baseurl}}" style="background-image: url('{{ site.logo | prepend: site.baseurl }}')">{{ site.title }}</a>
+    {% endif %} -->
+
+    <h1 class="blog-title">{{ site.title }}</h1>
+
+    <p align="justify">
+      
+
+    i believe, if you start your own org then it should be represented by your personality. Thus, i decided to name my org after the word that people have used
+    most throughout my life to describe me; Aawara.
+    </p>
+    &nbsp;&nbsp;·&nbsp;&nbsp;
+    <div class="custom-links">
+      {% for social in site.social %}
+        {% if social.url %}
+            <a class="icon-{{ social.icon }}" href="{{ social.url }}" {% if social.desc %} title="{{ social.desc }}"{% endif %}">
+              <i class="fa fa-{{ social.icon }}"></i>
+            </a>
+            &nbsp;&nbsp;·&nbsp;&nbsp;
+        {% endif %}
+      {% endfor %}
+    </div>
+            &nbsp;&nbsp;·&nbsp;&nbsp;
+    <div class="custom-links">
+      <a href={{ site.data.pages.about.url }}>{{site.data.pages.about.title}} |</a>
+      <a href={{ site.data.pages.projects.url }}>{{site.data.pages.projects.title}} |</a>
+      <a href={{ site.data.pages.blog.url }}>{{site.data.pages.blog.title}} |</a>
+      <a href={{ site.data.pages.contact.url }}>{{site.data.pages.contact.title}} |</a>
+
+    </div>
+</header>
