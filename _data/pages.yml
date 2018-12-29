@@ -7,12 +7,22 @@ about:
 projects:
  title: Projects
  url:	/projects/
- sikshya-dikshya:
-   title: Sikshya-Dikshya
-   url: /sikshya-dikshya/
- krinjal-space:
-   title: Krinjal space
-   url: /projects/krinjal-space
+ shikshya-dikshya:
+   title: Shikshya-dikshya
+   url: /shikshya-dikshya/
+   episodes:
+     title: Episodes
+     url: /shikshya-dikshya/episodes/
+   help-database:
+     title: Help database
+     url : /shikshya-dikshya/help-database/
+   know-someone-in-need:
+     title: Know someone in need?
+     url: /shikshya-dikshya/know-someone-in-need
+   want-to-help:
+     title: want to Help
+     url: /shikshya-dikshya/want-to-help
+
 
 blog:
  title: Blog
