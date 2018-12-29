@@ -1,0 +1,101 @@
+---
+---
+
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+
+  {% include header.html %}
+
+  <!-- content start -->
+
+  <div class="page-content">
+    <div class="wrapper blog-header">
+
+      <h1 class="blog-title">Shikshya-Dikshya</h1>
+      &nbsp;
+
+      <p align="center">
+        'Sikshya-Dikshya' is an online 100 sec show, where a new donor and receiver are introduced in each episode,
+        to help the life of receiver. That's it.
+      </p>
+
+      <p>
+        Intro video goes here
+      </p>
+
+      <div class="custom-links">
+        <a href={{ site.data.pages.about.url }}>{{site.data.pages.about.title}} |</a>
+        <a href={{ site.data.pages.projects.url }}>{{site.data.pages.episodes.title}} |</a>
+        <a href={{ site.data.pages.blog.url }}>{{site.data.pages.blog.know}} |</a>
+        <a href={{ site.data.pages.contact.url }}>{{site.data.pages.contact.title}} |</a>
+
+      </div>
+
+      <h3>Why am i doing this?</h3>
+      <p>There are three things that have had biggest impact in my life; Education, House and Mental health.
+        In literal sense, they have changed my life.Thus, i have made my life goal to help others who are in pain becuause of above three.
+        'Sikshya-Dikshya', is one of my way to reach my goal.
+      </p>
+
+      <h3>Whats the goal?</h3>
+
+
+      <p>
+<ul>
+  Education :
+  <li>
+    help 10,000 people receive education (with help from donors)
+  </li>
+  <li>
+    help 100 people receive education (with my own income)
+  </li>
+</ul>
+<ul>
+  Housing :
+  <li>
+    help 10,000 people make house (with help from donors)
+  </li>
+  <li>
+    help 100 people make house (with my own income)
+  </li>
+</ul>
+<ul>
+  Mental Health :
+  <li>
+    help 10,000 people sufferring from Mental health (with help from donors)
+  </li>
+  <li>
+    help 100 people suffering from Mental health (with my own income)
+  </li>
+</ul>
+      </p>
+
+      &nbsp;&nbsp;·&nbsp;&nbsp;
+      <div class="custom-links">
+        {% for social in site.social %}
+        {% if social.url %}
+        <a class="icon-{{ social.icon }}" href="{{ social.url }}" {% if social.desc %} title="{{ social.desc }}" {% endif %}">
+          <i class="fa fa-{{ social.icon }}"></i>
+        </a>
+        &nbsp;&nbsp;·&nbsp;&nbsp;
+        {% endif %}
+        {% endfor %}
+      </div>
+
+
+      {{ content }}
+    </div>
+  </div>
+
+  <!-- content end -->
+
+  {% include footer.html %}
+  {% include javascripts.html %}
+
+</body>
+
+</html>

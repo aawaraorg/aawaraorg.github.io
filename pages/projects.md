@@ -3,5 +3,12 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
+*Sikshya-Dikshya*
 
-[speakly]({{site.data.pages.projects.speakly.url}})
+An online 100 sec show, where a new donor and receiver are introduced in each episode, to help the life of receiver. That's it.
+
+more info @ [project homepage]({{site.data.pages.projects.sikshya-dikshya.url}})
+
+----------------------------------------------
+
+*another-project*
