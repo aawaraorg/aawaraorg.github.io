@@ -4,15 +4,20 @@ about:
  title: About
  url:	/about/
 
+blog:
+ title: Blog
+ url:	/blog/
+
+contact:
+  title: Contact
+  url: /contact/
+
 projects:
  title: Projects
  url:	/projects/
  shikshya-dikshya:
    title: Shikshya-dikshya
    url: /shikshya-dikshya/
-   episodes:
-     title: Episodes
-     url: /shikshya-dikshya/episodes/
    help-database:
      title: Help database
      url : /shikshya-dikshya/help-database/
@@ -22,12 +27,9 @@ projects:
    want-to-help:
      title: want to Help
      url: /shikshya-dikshya/want-to-help
-
-
-blog:
- title: Blog
- url:	/blog/
-
-contact:
-  title: Contact
-  url: /contact/
+   episodes:
+     title: Episodes
+     url: /shikshya-dikshya/episodes/
+     ep-01:
+       title: Episode 1
+       url: /shikshya-dikshya/episodes/ep-01
