@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: shikshya-dikshya-page
 title: Want to help
 permalink: /shikshya-dikshya/want-to-help/
 ---

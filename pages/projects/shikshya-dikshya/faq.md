@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: shikshya-dikshya-page
 title: FAQ
 permalink: /shikshya-dikshya/faq/
 ---

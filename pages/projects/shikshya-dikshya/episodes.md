@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: shikshya-dikshya-page
 title: Episodes
 permalink: /shikshya-dikshya/episodes/
 ---
