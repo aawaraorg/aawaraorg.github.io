@@ -30,3 +30,6 @@ projects:
    episodes:
      title: Episodes
      url: /shikshya-dikshya/episodes/
+   faq:
+     title: FAQ
+     url: /shikshya-dikshya/faq/
